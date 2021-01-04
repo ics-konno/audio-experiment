@@ -42,9 +42,10 @@ const Recording = () => {
     <div className="p-24">
       <section className="pt-6 pb-4">
         <p className="mb-4">録音を行います</p>
+        {isRec && <p>録音中...</p>}
         <ButtonComponent
           onClick={isRec ? () => stopRec() : () => startRec()}
-          className="bg-blue-500 text-white"
+          className={"bg-blue-500 text-white " + (isRec ? "animate-pulse" : "")}
         >
           {isRec ? "録音終了" : "録音開始"}
         </ButtonComponent>
