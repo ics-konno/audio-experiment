@@ -1,6 +1,7 @@
 import Head from "next/head";
 // @ts-ignore
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -48,6 +49,13 @@ const Home = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+
+          <Link href="/user-media">
+            <a className={styles.card}>
+              <h3>getUserMedia Sample</h3>
+              <p>マイク、カメラを取得するサンプルです</p>
+            </a>
+          </Link>
         </div>
       </main>
 
