@@ -56,6 +56,13 @@ const Home = () => {
               <p>マイク、カメラを取得するサンプルです</p>
             </a>
           </Link>
+
+          <Link href="/recording">
+            <a className={styles.card}>
+              <h3>Recording Sample</h3>
+              <p>録音のサンプルです</p>
+            </a>
+          </Link>
         </div>
       </main>
 

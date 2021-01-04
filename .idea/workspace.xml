@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a9fbfe2-db16-4f8f-a300-16147ed6056a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/ButtonComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/user-media.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/userMediaController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/recording.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mediaRecorder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userMediaController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/userMediaController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,7 +59,17 @@
       <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -73,6 +83,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -85,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609405061517</updated>
       <workItem from="1609405063087" duration="1318000" />
-      <workItem from="1609724659460" duration="12205000" />
+      <workItem from="1609724659460" duration="20916000" />
     </task>
     <task id="LOCAL-00001" summary="TypeScript化">
       <created>1609433032478</created>
@@ -94,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609433032478</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="getUserMediaのデモ作成">
+      <created>1609750146580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609750146580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TypeScript化" />
-    <option name="LAST_COMMIT_MESSAGE" value="TypeScript化" />
+    <MESSAGE value="getUserMediaのデモ作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="getUserMediaのデモ作成" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

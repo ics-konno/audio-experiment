@@ -68,4 +68,5 @@ export default class UserMediaController {
     );
     mediaStreamSource.connect(audioContext.destination);
   }
+
 }
